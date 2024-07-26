@@ -15,7 +15,7 @@ export const SideMenu = () => {
             <SheetTrigger>
                 <MenuIcon />
             </SheetTrigger>
-            <SheetContent className=" bg-white flex-col gap-4 flex">
+            <SheetContent className=" bg-white flex-col gap-4 flex z-50">
             <NavBarItem href="#sobre"><CircleHelp size={18}/> Sobre</NavBarItem>
                 <NavBarItem href="#medicos"><ClipboardPlus size={18} />Médicos</NavBarItem>
                 <NavBarItem href="#secretarias"><SquareUserRound size={18} />Secretárias</NavBarItem>
