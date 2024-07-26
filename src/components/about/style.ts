@@ -3,9 +3,9 @@ import styled from "styled-components"
 export const Section = styled.section`
     display: flex;
     width:100%;
-    height:100vh;
     background-color: var(--primary-color);
     flex-wrap: wrap;
+    padding-top:10vh;
 `
 
 export const ContainerImage = styled.div`
@@ -13,7 +13,6 @@ export const ContainerImage = styled.div`
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100%;
     background-color: var(--primary-color);
     @media (max-width: 1100px){
         display:none;
@@ -32,7 +31,6 @@ export const Image = styled.img`
 export const ContainerText = styled.div`
     display: flex;
     width: 50%;
-    height: 100vh;
     align-items: start;
     flex-direction: column;
     padding:0px 5px;
