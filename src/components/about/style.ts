@@ -5,7 +5,7 @@ export const Section = styled.section`
     width:100%;
     background-color: var(--primary-color);
     flex-wrap: wrap;
-    padding-top:10vh;
+    padding-top:10%;
 `
 
 export const ContainerImage = styled.div`
@@ -60,7 +60,7 @@ export const SubTitle = styled.h3`
 
 export const Text = styled.p`
     color:var(--dark-color);
-    font-size:1.1rem;
+    font-size:1rem;
     letter-spacing: 1px;
     font-weight: 600;
     margin-top: 1rem;
