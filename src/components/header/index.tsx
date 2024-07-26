@@ -11,7 +11,7 @@ export const Header = () => {
                     JARDIM SAÚDE
                 </Title>
                 <SubText>
-                    MVP de uma clínica médica
+                    MVP de clínica médica
                 </SubText>
                 <ButtonContainer>
 
@@ -24,11 +24,11 @@ export const Header = () => {
 
                     <GitHubButton>
                         <p><Github /> </p>
-                        <a href="">Frontend</a>
+                        <a href="https://github.com/JoaoMarcosCS/JardimSaude">Frontend</a>
                     </GitHubButton>
                     <GitHubButton>
                         <p><Github /> </p>
-                        <a href="">Backend</a>
+                        <a href="https://github.com/JoaoMarcosCS/JardimSaudeAPI">Backend</a>
                     </GitHubButton>
                 </ButtonContainer>
 

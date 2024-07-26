@@ -16,13 +16,14 @@ export const TextArea = styled.div`
     padding-left: 5%;
     width: 40%;
     height: 100%;
+    gap:15px;
     background-color: var(--primary-color);
     @media (max-width: 1100px){
         width: 100%;
         align-items: center;
-        justify-content: cneter;
+        justify-content: start;
+        padding-top: 5%;
         padding-left:0%;
-        height: 100vh;
     }
 `
 
@@ -38,6 +39,9 @@ export const Title = styled.h1`
     line-height: 1; 
     font-weight: 700;
     color:var(--secondary-color);
+    @media(max-width: 1100px){
+        text-align: center;
+    }
 `
 
 export const SubText = styled.p`
@@ -78,6 +82,9 @@ export const ButtonContainer = styled.div`
     align-items: center;
     margin-top: 15px;
     gap:15px;
+    @media(max-width: 1100px){
+        flex-direction: column;
+    }
 `
 
 export const LinkText = styled.p`
