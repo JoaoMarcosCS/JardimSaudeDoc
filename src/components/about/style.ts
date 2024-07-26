@@ -6,9 +6,6 @@ export const Section = styled.section`
     height:100vh;
     background-color: var(--primary-color);
     flex-wrap: wrap;
-    @media(max-width: 1100px){
-        height:50vh;
-    }
 `
 
 export const ContainerImage = styled.div`
@@ -35,7 +32,7 @@ export const Image = styled.img`
 export const ContainerText = styled.div`
     display: flex;
     width: 50%;
-    height: 100%;
+    height: 100vh;
     align-items: start;
     flex-direction: column;
     padding:0px 5px;
