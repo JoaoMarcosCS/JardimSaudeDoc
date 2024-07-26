@@ -6,4 +6,7 @@ export const Container = styled.div`
     display: flex;
     height: 30px;
     justify-content: center;
+    @media(max-width:600px){
+        display:none;
+    }
 `

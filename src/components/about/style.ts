@@ -5,7 +5,7 @@ export const Section = styled.section`
     width:100%;
     background-color: var(--primary-color);
     flex-wrap: wrap;
-    padding-top:10%;
+    padding-top:30vh;
 `
 
 export const ContainerImage = styled.div`
