@@ -4,14 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root{
+  --primary-color:  rgb(253, 253, 253 );
+  --secondary-color: rgb(34 197 94);
+  --dark-color: #1f2120;
+}
 
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(34 197 94);
+  background-color: var(--secondary-color);
 }
 
 code {

@@ -1,6 +1,6 @@
-import { ImageLogo, LoginButton, NavBarContainer, NavBarItem, NavBarItemsContainer, NavBarLogo, TextLogo } from "./style"
+import { ImageLogo, LoginButton, NavBarContainer, NavBarItem, NavBarItemsContainer, NavBarLogo, SideMenuContainer, TextLogo } from "./style"
 import Logo from "../../assets/img/logoJardimSaude.png"
-import { ExternalLink } from "lucide-react"
+import { CircleHelp, ClipboardPlus, ExternalLink, Milestone, Settings2, ShieldEllipsis, SquareUserRound, Stethoscope, Syringe, TrendingUp } from "lucide-react"
 import { SideMenu } from "./sideMenu"
 
 export const NavBar = () => {
@@ -10,22 +10,23 @@ export const NavBar = () => {
                 <ImageLogo src={Logo}/>
                 <TextLogo>Jardim Sáude</TextLogo>
             </NavBarLogo>
-            <div className="max-sm:flex hidden">
+
+            <SideMenuContainer>
                 <SideMenu/>
-            </div>
+            </SideMenuContainer>
 
             <NavBarItemsContainer>
-                <NavBarItem href="#">Sobre</NavBarItem>
-                <NavBarItem href="#">Médicos</NavBarItem>
-                <NavBarItem href="#">Secretárias</NavBarItem>
-                <NavBarItem href="#">Tratamentos</NavBarItem>
-                <NavBarItem href="#">Medicamentos</NavBarItem>
-                <NavBarItem href="#">Limitações</NavBarItem>
-                <NavBarItem href="#">Próximas melhorias</NavBarItem>
+                <NavBarItem href="#"><CircleHelp size={18}/> Sobre</NavBarItem>
+                <NavBarItem href="#"><ClipboardPlus size={18} />Médicos</NavBarItem>
+                <NavBarItem href="#"><SquareUserRound size={18} />Secretárias</NavBarItem>
+                <NavBarItem href="#"><Stethoscope size={18} />Tratamentos</NavBarItem>
+                <NavBarItem href="#"><Syringe size={18} />Medicamentos</NavBarItem>
+                <NavBarItem href="#"><Settings2 size={18} />Limitações</NavBarItem>
+                <NavBarItem href="#"><TrendingUp size={18} />Próximas melhorias</NavBarItem>
             </NavBarItemsContainer>
 
             <LoginButton href="https://jardim-saude.vercel.app/login" target="_blank">
-                Login<ExternalLink/>
+                Login
             </LoginButton>
         </NavBarContainer>
     )

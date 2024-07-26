@@ -6,7 +6,7 @@ export const NavBarContainer = styled.nav`
     align-items: center;
     height: 70px;
     position:fixed;
-    background-color: rgb(255 250 252);
+    background-color:#ffffff;
     width:100%;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     @media (max-width: 1100px){
@@ -49,8 +49,12 @@ export const NavBarItemsContainer = styled.ul`
 export const NavBarItem = styled.a`
     font-size: 0.975rem;
     line-height: 1.25rem;
-    color: #1f2120;
+    color: var(--dark-color);
     font-weight: 500;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    gap:1px;
     transition: all ease 0.1s;
     &:hover{
         color: rgb(22 163 74);
@@ -58,22 +62,24 @@ export const NavBarItem = styled.a`
 `
 
 export const LoginButton = styled.a`
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top:6px;
-    padding-bottom: 6px;
-    
-    background-color: rgb(34 197 94);
-    color: rgb(248 250 252);
-    width: 35px;
+    padding: 10px 8px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: 500;
     display:flex;
     justify-content: center;
     align-items: center;
-    height:24px;
     transition: all ease 0.1s;
     border-radius: 8px;
     &:hover{
         background-color: rgb(22 163 74);
+    }
+`
+
+export const SideMenuContainer = styled.div`
+   display:none;
+   
+   @media (max-width: 1100px){
+        display: flex; 
     }
 `
