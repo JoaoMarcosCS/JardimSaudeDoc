@@ -1,7 +1,6 @@
 import { ButtonContainer, Container, GitHubButton, ImageBanner, ImageContainer, LinkText, SubText, SubTitle, TextArea, Title } from "./style"
 import Banner from "../../assets/img/banner-home.png"
 import { ExternalLink, Github } from "lucide-react"
-import { GitHubLogoIcon } from "@radix-ui/react-icons"
 
 export const Header = () => {
     return (
@@ -11,7 +10,7 @@ export const Header = () => {
                     JARDIM SAÚDE
                 </Title>
                 <SubText>
-                    MVP de clínica médica
+                    Plataforma Fullstack desenvolvida com NodeJS, NextJS e Postgres
                 </SubText>
                 <ButtonContainer>
 

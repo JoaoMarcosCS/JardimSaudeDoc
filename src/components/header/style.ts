@@ -6,8 +6,10 @@ export const Container = styled.header`
     padding-top: 70px;
     height:100vh;
     background-color: var(--primary-color);
+    @media (max-width: 1100px){
+        height:50vh;
+    }
 `
-
 export const TextArea = styled.div`
     display: flex;
     justify-content: center;
@@ -23,6 +25,7 @@ export const TextArea = styled.div`
         align-items: center;
         justify-content: start;
         padding-top: 5%;
+        height: 0;
         padding-left:0%;
     }
 `
@@ -32,6 +35,8 @@ export const SubTitle = styled.h3`
     letter-spacing: 2px;
     font-weight: 500;
     color:var(--dark-color);
+    background-color: var(--primary-color);
+ 
 `
 
 export const Title = styled.h1`
@@ -41,6 +46,7 @@ export const Title = styled.h1`
     color:var(--secondary-color);
     @media(max-width: 1100px){
         text-align: center;
+
     }
 `
 
@@ -50,6 +56,9 @@ export const SubText = styled.p`
     font-weight: 500;
     padding-left: 6px;
     color:inherit;
+    @media (max-width: 1100px){
+        text-align: center;
+    }
 `
 
 export const ImageContainer = styled.div`
