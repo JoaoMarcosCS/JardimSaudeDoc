@@ -14,7 +14,7 @@ export const Section = styled.section`
     background-color: var(--primary-white);
     @media (max-width: 1100px){
         padding: 0px 1.3rem;
-        padding:30vh;
+        padding-top:30vh;
     }
 `
 

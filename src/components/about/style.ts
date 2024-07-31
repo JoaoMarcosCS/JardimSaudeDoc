@@ -7,7 +7,7 @@ export const Section = styled.section`
     flex-wrap: wrap;
     @media (max-width: 1100px){
         padding: 0px 1.3rem;
-        padding:30vh;
+        padding-top:30vh;
     }
 `
 
