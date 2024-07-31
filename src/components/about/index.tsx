@@ -5,7 +5,7 @@ import { Reference } from "../../styles/reference"
 
 export const About = () => {
     return (
-        <Section>
+        <Section id="sobre">
             <ContainerImage>
                 <Image src={ImageAbout} />
             </ContainerImage>
@@ -14,7 +14,7 @@ export const About = () => {
                 <SubTitle>
                     O que é e do que se trata o Jardim Saúde?
                 </SubTitle>
-                <Title id="sobre">
+                <Title >
                     SOBRE
                 </Title>
 

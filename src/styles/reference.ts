@@ -9,7 +9,7 @@ export const Reference = styled.a<ReferenceProps>`
     font-style: italic;
     font-weight: 700;
     font-size:1.1rem;
-    text-decoration: underline var(--secondary-color) 2px;
-    color:var(--secondary-color);
+    text-decoration: underline var(--primary-green) 2px;
+    color:var(--primary-green);
     letter-spacing: 1.5px;
 `

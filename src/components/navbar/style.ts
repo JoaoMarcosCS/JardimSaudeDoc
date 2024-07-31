@@ -6,7 +6,7 @@ export const NavBarContainer = styled.nav`
     align-items: center;
     height: 70px;
     position:fixed;
-    background-color:#ffffff;
+    background-color:var(--primary-white);
     width:100%;
     z-index:40;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -30,7 +30,7 @@ export const ImageLogo = styled.img`
 `
 
 export const TextLogo = styled.p`
-    color:rgb(34 197 94);
+    color:var(--primary-green);
     font-size: 1.500rem; 
     line-height: 1.75rem;
     font-weight: 600;
@@ -50,7 +50,7 @@ export const NavBarItemsContainer = styled.ul`
 export const NavBarItem = styled.a`
     font-size: 0.975rem;
     line-height: 1.25rem;
-    color: var(--dark-color);
+    color: var(--primary-dark);
     font-weight: 500;
     display:flex;
     align-items: center;
@@ -64,8 +64,8 @@ export const NavBarItem = styled.a`
 
 export const LoginButton = styled.a`
     padding: 10px 8px;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-green);
+    color: var(--primary-white);
     font-weight: 500;
     display:flex;
     justify-content: center;

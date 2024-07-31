@@ -15,9 +15,6 @@ function App() {
       <ArrowDown id="#sobre"/>
       <About/>
       <StacksSection/>
-      <StacksSection/>
-      <StacksSection/>
-      <StacksSection/>
     </>
   );
 }

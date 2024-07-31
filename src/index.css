@@ -5,9 +5,12 @@
 @tailwind utilities;
 
 :root{
-  --primary-color:  rgb(253, 253, 253 );
-  --secondary-color: rgb(34 197 94);
-  --dark-color: #1f2120;
+  --primary-white: rgb(253, 253, 253 );
+  --secondary-white: #f4fffc;
+  --primary-dark: #1a1a1a;
+  --secondary-dark: #1f2120;
+  --primary-green: rgb(34 197 94);
+  --secondary-green: #91eaaf;
 }
 *{
   scroll-behavior: smooth;

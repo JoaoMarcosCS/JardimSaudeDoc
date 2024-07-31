@@ -3,9 +3,12 @@ import styled from "styled-components"
 export const Section = styled.section`
     display: flex;
     width:100%;
-    background-color: var(--primary-color);
+    background-color: var(--primary-white);
     flex-wrap: wrap;
-    padding-top:30vh;
+    @media (max-width: 1100px){
+        padding: 0px 1.3rem;
+        padding:30vh;
+    }
 `
 
 export const ContainerImage = styled.div`
@@ -13,7 +16,6 @@ export const ContainerImage = styled.div`
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: var(--primary-color);
     @media (max-width: 1100px){
         display:none;
     }
@@ -24,7 +26,7 @@ export const Image = styled.img`
     display: flex;
     width:450px;
     height:450px;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-green);
     border-radius: 100%;
 `
 
@@ -35,23 +37,22 @@ export const ContainerText = styled.div`
     flex-direction: column;
     padding:0px 5px;
     justify-content: center;
-    background-color: var(--primary-color);
     @media (max-width: 1100px){
         width: 100%;
     }
 `
 
 export const Title = styled.h1`
-    color:var(--dark-color);
+    color:var(--primary-dark);
     font-size:2.65rem;
     letter-spacing: 2px;
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: var(--secondary-color);
+    text-decoration-color: var(--primary-green);
 `
 
 export const SubTitle = styled.h3`
-    color:var(--dark-color);
+    color:var(--secondary-dark);
     font-size:0.9rem;
     letter-spacing: 1px;
     font-weight: 600;
@@ -59,13 +60,11 @@ export const SubTitle = styled.h3`
 `
 
 export const Text = styled.p`
-    color:var(--dark-color);
+    color:var(--secondary-dark);
     font-size:1rem;
     letter-spacing: 1px;
-    opacity: 0.95;
     font-weight: 600;
+    opacity: 0.9;
     margin-top: 1rem;
-    @media (max-width: 1100px){
-        padding: 0px 2rem;
-    }
+ 
 `

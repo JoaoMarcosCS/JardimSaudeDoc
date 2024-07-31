@@ -5,7 +5,7 @@ export const Container = styled.header`
     width:100%;
     padding-top: 70px;
     height:100vh;
-    background-color: var(--primary-color);
+    background-color: var(--primary-white);
     @media (max-width: 1100px){
         height:50vh;
     }
@@ -19,7 +19,6 @@ export const TextArea = styled.div`
     width: 40%;
     height: 100%;
     gap:15px;
-    background-color: var(--primary-color);
     @media (max-width: 1100px){
         width: 100%;
         align-items: center;
@@ -34,8 +33,7 @@ export const SubTitle = styled.h3`
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: 500;
-    color:var(--dark-color);
-    background-color: var(--primary-color);
+    color:var(--secondary-dark);
  
 `
 
@@ -43,7 +41,7 @@ export const Title = styled.h1`
     font-size: 3.75rem; 
     line-height: 1; 
     font-weight: 700;
-    color:var(--secondary-color);
+    color:var(--primary-green);
     @media(max-width: 1100px){
         text-align: center;
 
@@ -55,7 +53,7 @@ export const SubText = styled.p`
     letter-spacing: 1.5px;
     font-weight: 500;
     padding-left: 6px;
-    color:inherit;
+    color:var(--secondary-dark);
     @media (max-width: 1100px){
         text-align: center;
     }
@@ -68,7 +66,6 @@ export const ImageContainer = styled.div`
     align-items: center;
     padding: 0px 1%;
     justify-content: center;
-    background-color: var(--primary-color);
     @media (max-width: 1100px){
         display:none;
     }
@@ -79,7 +76,7 @@ export const ImageBanner = styled.img`
     width:700px;
     border-radius: 12px;
     display: flex;
-    box-shadow: 0 1px 3px 0 var(--secondary-color), 0 1px 2px -1px var(--secondary-color);
+    box-shadow: 0 1px 3px 0 var(--primary-green), 0 1px 2px -1px var(--primary-green);
 
     @media (max-width: 1100px){
         display: none; 
@@ -97,7 +94,7 @@ export const ButtonContainer = styled.div`
 `
 
 export const LinkText = styled.p`
-    color:var(--secondary-color);
+    color:var(--primary-green);
     text-decoration:underline;
     font-size:18px;
     font-weight: 500;
@@ -107,8 +104,8 @@ export const LinkText = styled.p`
 
 export const GitHubButton = styled.button`
     padding: 12px 10px;
-    background-color: var(--dark-color);
-    color: var(--primary-color);
+    background-color: var(--primary-dark);
+    color: var(--primary-white);
     font-weight: 300;
     display:flex;
     justify-content: center;
