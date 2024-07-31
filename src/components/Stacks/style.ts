@@ -13,7 +13,7 @@ export const Section = styled.section`
     flex-direction: column;
     background-color: var(--primary-white);
     @media (max-width: 1100px){
-        padding: 0px 1.3rem;
+        padding: 0px 1rem;
         padding-top:30vh;
     }
 `
@@ -30,6 +30,7 @@ export const SubTitle = styled.h3`
     color:var(--secondary-dark);
     font-size:1rem;
     letter-spacing: 1px;
+    text-align: center;
     font-weight: 600;
     opacity: 0.9;
 `
