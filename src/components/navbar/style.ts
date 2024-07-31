@@ -8,7 +8,7 @@ export const NavBarContainer = styled.nav`
     position:fixed;
     background-color:#ffffff;
     width:100%;
-    z-index:10;
+    z-index:40;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     @media (max-width: 1100px){
         padding: 0px 12px;

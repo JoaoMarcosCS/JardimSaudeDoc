@@ -4,6 +4,11 @@ import React, { forwardRef, useRef } from "react";
 
 import { cn } from "../../lib/utils";
 import { AnimatedBeam } from "./demo";
+import NextJs from "../../assets/img/nextjs-icon.svg"
+import ReactIcon from "../../assets/img/react-icon.svg"
+import Redux from "../../assets/img/redux-icon.svg"
+import Tailwind from "../../assets/img/tailwind-icon.svg"
+import {ImageLogo} from "./style";
 
 const Circle = forwardRef<
   HTMLDivElement,
@@ -13,7 +18,7 @@ const Circle = forwardRef<
     <div
       ref={ref}
       className={cn(
-        "z-10 flex size-12 items-center justify-center rounded-full border-2 border-border bg-white p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
+        "z-10 flex size-12 items-center justify-center rounded-full bg-white p-3 shadow-[0_0_20px_-12px_rgba(0,0,0,0.8)]",
         className,
       )}
     >
@@ -41,7 +46,7 @@ export function AnimatedBeamMultipleOutputDemo({
   return (
     <div
       className={cn(
-        "relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg border bg-background p-10 md:shadow-xl",
+        "relative flex w-full items-center justify-center overflow-hidden p-10 ",
         className,
       )}
       ref={containerRef}
@@ -49,19 +54,16 @@ export function AnimatedBeamMultipleOutputDemo({
       <div className="flex size-full flex-row items-stretch justify-between gap-10 max-w-lg">
         <div className="flex flex-col justify-center gap-2">
           <Circle ref={div1Ref}>
-            <Icons.googleDrive />
+          <ImageLogo src={NextJs}/>
           </Circle>
           <Circle ref={div2Ref}>
-            <Icons.googleDocs />
+            <ImageLogo src={Tailwind}/>
           </Circle>
           <Circle ref={div3Ref}>
-            <Icons.whatsapp />
+          <ImageLogo src={ReactIcon}/>
           </Circle>
           <Circle ref={div4Ref}>
-            <Icons.messenger />
-          </Circle>
-          <Circle ref={div5Ref}>
-            <Icons.notion />
+          <ImageLogo src={Redux}/>
           </Circle>
         </div>
         <div className="flex flex-col justify-center">
@@ -80,7 +82,7 @@ export function AnimatedBeamMultipleOutputDemo({
         containerRef={containerRef}
         fromRef={div1Ref}
         toRef={div6Ref}
-        duration={1}
+
       />
       <AnimatedBeam
         containerRef={containerRef}

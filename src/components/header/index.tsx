@@ -1,6 +1,7 @@
-import { ButtonContainer, Container, GitHubButton, ImageBanner, ImageContainer, LinkText, SubText, SubTitle, TextArea, Title } from "./style"
+import { ButtonContainer, Container, GitHubButton, ImageBanner, ImageContainer, LinkText, SubText, TextArea, Title } from "./style"
 import Banner from "../../assets/img/banner-home.png"
 import { ExternalLink, Github } from "lucide-react"
+import { ArrowDown } from "../arrow/ArrowDown"
 
 export const Header = () => {
     return (

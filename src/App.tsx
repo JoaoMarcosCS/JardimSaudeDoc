@@ -1,5 +1,6 @@
 
-import { AnimatedBeamMultipleOutputDemo } from "./components/Stacks/test";
+import { StacksSection } from "./components/Stacks";
+import { AnimatedBeamMultipleOutputDemo } from "./components/Stacks/stacksComponent";
 import { About } from "./components/about";
 import { ArrowDown } from "./components/arrow/ArrowDown";
 import { Header } from "./components/header";
@@ -13,7 +14,10 @@ function App() {
       <Header/>
       <ArrowDown id="#sobre"/>
       <About/>
-      <AnimatedBeamMultipleOutputDemo/>
+      <StacksSection/>
+      <StacksSection/>
+      <StacksSection/>
+      <StacksSection/>
     </>
   );
 }
