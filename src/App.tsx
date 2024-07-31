@@ -5,6 +5,7 @@ import { About } from "./components/about";
 import { ArrowDown } from "./components/arrow/ArrowDown";
 import { Header } from "./components/header";
 import { NavBar } from "./components/navbar";
+import { Users } from "./components/users";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <ArrowDown id="#sobre"/>
       <About/>
       <StacksSection/>
+      <Users/>
     </>
   );
 }
