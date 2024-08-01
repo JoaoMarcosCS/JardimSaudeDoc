@@ -1,7 +1,5 @@
 import { ContainerImage, ContainerText, Image, Section, SubTitle, Text, Title } from "./style"
 import ImageTreatement from "../../assets/img/treatment-image.svg"
-import { Reference } from "../../styles/reference"
-
 
 export const Treatments = () => {
     return (
@@ -15,7 +13,7 @@ export const Treatments = () => {
                     Entenda o que são os tratamentos
                 </SubTitle>
                 <Title >
-                    TRATAMENTOS
+                    Tratamentos
                 </Title>
 
                 <Text>
