@@ -8,7 +8,7 @@ export const Section = styled.section`
     padding:4rem 0px;
     @media (max-width: 1100px){
         padding: 0px 0.5rem;
-        padding-top:10vh;
+        padding-top:20vh;
     }
 `
 
