@@ -13,9 +13,9 @@ export const Users = () => {
                 </SubTitle>
             </TitleSection>
 
-            <UserSection>
+            <UserSection  id="secretarias">
                 <UserCard>
-                    <Title2 id="secretarias">
+                    <Title2>
                         Secretária(o)
                     </Title2>
                     <Text>
@@ -30,9 +30,9 @@ export const Users = () => {
                 </UserCard>
             </UserSection>
 
-            <UserSection>
+            <UserSection id="medicos">
                 <UserCard>
-                    <Title2 id="medicos">
+                    <Title2>
                         Médico(a)
                     </Title2>
                     <Text>

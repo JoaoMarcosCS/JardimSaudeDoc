@@ -36,7 +36,7 @@ export const ContainerText = styled.div`
     width: 50%;
     align-items: start;
     flex-direction: column;
-    padding-right:4rem;
+    padding-left:4rem;
     justify-content: center;
     @media (max-width: 1100px){
         width: 100%;
