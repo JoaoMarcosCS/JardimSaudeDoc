@@ -20,7 +20,7 @@ export const UserSection = styled.div`
     margin-top: 10vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     @media (max-width: 1100px){
         padding: 0px 1rem;
         width: 100%;
@@ -81,4 +81,41 @@ export const Text = styled.p`
     text-align: left;
     font-weight: 600;
     opacity: 0.9;
+`
+
+export const LoginSection = styled.div`
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+    margin-top: 5vh;
+    
+`
+export const LoginTitle = styled.h1`
+    color:var(--primary-dark);
+    font-size:1.1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom:2vh;
+`
+export const LoginFieldData = styled.div`
+    display: flex;
+    width:100%;
+    justify-content: start;
+    gap:5px;
+`
+
+export const LoginLabel = styled.p`
+    color:var(--secondary-dark);
+    font-size:1rem;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: 600;
+    opacity: 0.9;
+`
+
+export const LoginData = styled.p`
+    color:var(--primary-dark);
+    font-size:1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
 `

@@ -21,8 +21,10 @@ export const About = () => {
                 <Text>
                     O Jardim Saúde é um MVP (Produto Mínimo Viável) de uma clínica
                     médica que permite gerenciar <Reference href="#tratamentos">tratamentos</Reference>,
-                     funcionários e 
-                    estoque de <Reference href="#medicamentos">medicamentos</Reference>.
+                    funcionários e 
+                    estoque de <Reference href="#medicamentos">medicamentos</Reference>. Ainda é uma plataforma
+                    pequena com algumas <Reference href="#limitacoes">limitações</Reference>, mas com potencial enorme 
+                    de expandir. Veja as <Reference href="#melhorias">próximas melhorias</Reference>.
                 </Text>
             </ContainerText>
         </Section>

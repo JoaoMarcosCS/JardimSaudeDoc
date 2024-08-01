@@ -1,5 +1,5 @@
 import { ClipboardPlus } from "lucide-react"
-import { Section, SubTitle, Text, Title, Title2, TitleSection, UserCard, UserSection } from "./style"
+import { LoginData, LoginFieldData, LoginLabel, LoginSection, LoginTitle, Section, SubTitle, Text, Title, Title2, TitleSection, UserCard, UserSection } from "./style"
 
 export const Users = () => {
     return (
@@ -27,6 +27,27 @@ export const Users = () => {
                         o time financeiro porque ele pode ver o orçamento disponível para compra de medicamentos e pagamento
                         de funcionários.
                     </Text>
+                    <LoginSection>
+                        <LoginTitle>
+                            Login Secretária(o)
+                        </LoginTitle>
+                        <LoginFieldData>
+                            <LoginLabel>
+                                email:
+                            </LoginLabel>
+                            <LoginData>
+                                jmcsjoaomarcos@gmail.com
+                            </LoginData>
+                        </LoginFieldData>
+                        <LoginFieldData>
+                            <LoginLabel>
+                                senha:
+                            </LoginLabel>
+                            <LoginData>
+                                JMCS2024
+                            </LoginData>
+                        </LoginFieldData>
+                    </LoginSection>
                 </UserCard>
             </UserSection>
 
@@ -45,6 +66,27 @@ export const Users = () => {
                         de cada entidade da vida real, a plataforma teria vários tipos de usuários e ficaria difícil
                         de realizar uma demonstração de todas as funcionalidade que a plataforma oferece.                  
                     </Text>
+                    <LoginSection>
+                        <LoginTitle>
+                            Login Médico(a)
+                        </LoginTitle>
+                        <LoginFieldData>
+                            <LoginLabel>
+                                email:
+                            </LoginLabel>
+                            <LoginData>
+                                ana.silva@gmail.com
+                            </LoginData>
+                        </LoginFieldData>
+                        <LoginFieldData>
+                            <LoginLabel>
+                                senha:
+                            </LoginLabel>
+                            <LoginData>
+                                AnaSilva12345
+                            </LoginData>
+                        </LoginFieldData>
+                    </LoginSection>
                 </UserCard>
             </UserSection>
         </Section>
