@@ -8,7 +8,7 @@ export interface LimitationAccordionProps{
 
 export const LimitationAccordion = ({title, children}: LimitationAccordionProps) => {
     return (
-        <Accordion type="single" collapsible defaultValue="item-1">
+        <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
                 <AccordionTrigger>
                     <AccordionTitle>

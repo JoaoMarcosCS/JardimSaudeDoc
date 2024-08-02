@@ -6,7 +6,7 @@ export const Section = styled.section`
     background-color: var(--primary-white);
     flex-wrap:wrap;
     padding:20vh 0px;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
 `
 

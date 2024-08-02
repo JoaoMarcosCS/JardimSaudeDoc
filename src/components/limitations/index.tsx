@@ -9,7 +9,7 @@ export const Limitations = () => {
                     Limitações
                 </Title>
                 <SubTitle>
-                    Veja as limitações atuais do Jardim Saúde.
+                    Veja as limitações atuais do Jardim Saúde
                 </SubTitle>
             </TitleSection>
 
