@@ -9,8 +9,8 @@ export const Section = styled.section`
     justify-content: space-around;
     padding:5vh 0vh;
     @media (max-width: 1100px){
-        flex-direction: column;
         gap:2vh;
+        padding:5vh 1vh;
     }
 `
 
@@ -52,6 +52,7 @@ export const Content = styled.div`
     gap: 4px;
     @media (max-width: 1100px){
         width: 100%;
+        align-items: center;
     }
 `
 
