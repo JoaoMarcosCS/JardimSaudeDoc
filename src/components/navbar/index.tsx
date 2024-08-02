@@ -16,7 +16,7 @@ export const NavBar = () => {
             </SideMenuContainer>
 
             <NavBarItemsContainer>
-                <NavBarItem href="#sobre"><CircleHelp size={18}/> Sobre</NavBarItem>
+                <NavBarItem href="#"><CircleHelp size={18}/> Sobre</NavBarItem>
                 <NavBarItem href="#medicos"><ClipboardPlus size={18} />Médicos</NavBarItem>
                 <NavBarItem href="#secretarias"><SquareUserRound size={18} />Secretárias</NavBarItem>
                 <NavBarItem href="#tratamentos"><Stethoscope size={18} />Tratamentos</NavBarItem>

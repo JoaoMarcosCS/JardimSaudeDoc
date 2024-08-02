@@ -81,11 +81,10 @@ export const Upcoming = () => {
             </AccordionSection>
 
             <AccordionSection>
-                <UpcomingAccordion title="Scroll infinito">
-                    No shopping, a parte onde a secretária adiciona medicamentos ao carrinho, podemos adicionar o
-                    efeito de scroll infinito para melhorar a usabilidade da interface e para tembém, não carregar todos
-                    os medicamentos de uma vez. Uma outra solução seria fazer uma paginação no serviço do backend que traz os
-                    medicamentos, já que os a quantidade de medicamentos pode escalar e causar lentidão.
+                <UpcomingAccordion title="Arquivos estáticos">
+                    Implementar o tartamento de arquivos estáticos permitirá que os usuários possam
+                    cadastrar uma foto de perfil, possam salvar seus relatórios e outros documentos
+                    como prontuários de pacientes.
                 </UpcomingAccordion>
             </AccordionSection>
         </Section>
