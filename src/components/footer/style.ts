@@ -109,4 +109,7 @@ export const EditorNote = styled.p`
     letter-spacing: 1px;
     text-align: left;
     font-weight: 500;
+    @media (max-width: 1100px){
+        width: 100%;
+    }
 `
