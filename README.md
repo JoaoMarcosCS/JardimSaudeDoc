@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[VERCEL_BADGE]:https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
+[REACT]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
+[STYLED_COMPONENTS]: https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center" style="font-weight: bold;">Jardim Saúde Documentação</h1>
 
-In the project directory, you can run:
+![Typescript][TYPESCRIPT__BADGE]
+![Styled_Components][STYLED_COMPONENTS]
+![React][REACT]
+![Vercel][VERCEL_BADGE]
 
-### `npm start`
+<p align="center">
+ <a href="#about">Sobre o Jardim Saúde</a> •
+ <a href="#colab">Colaboradores</a> 
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="about">📖 Sobre o Jardim Saúde</h2>
+O projeto Jardim Saúde é um MVP de uma clínica de saúde com dois tipos de usuários
+com diferentes níveis de acesso(
+     <a href="https://jardim-saude-doc.vercel.app/#secretarias">secretária</a> 
+     e
+    <a href="https://jardim-saude-doc.vercel.app/#medicos">médico</a>
+    ). O objetivo do desenvolvimento desse sistema foi consolidar meus conhecimentos nos ambientes de frontend e backend. No frontend eu aprimorei minhas habilidades em criacão de formulários, validações avançadas com Zod, gerenciamento de estado com Redux Toolkit, chamadas para API com React Query e modularização de componentes. Já no backend, desenvolvi minhas habilidades em tratamentos de erros, divisão de responsabildades nos microserviços, banco de dados, criação de endpoints e como testar uma API com Postman. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<h2 id="colab">🤝 Colaboradores</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/86919788?s=400&u=73dc71cd30d55a2a6992434df0fbd0c2bd877298&v=4" width="100px;" alt="João Marcos Profile Picture"/><br>
+        <sub>
+          <b>João Marcos</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
