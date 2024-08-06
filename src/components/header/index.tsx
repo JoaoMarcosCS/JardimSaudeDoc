@@ -24,11 +24,11 @@ export const Header = () => {
 
                     <GitHubButton>
                         <p><Github /> </p>
-                        <a href="https://github.com/JoaoMarcosCS/JardimSaude">Frontend</a>
+                        <a href="https://github.com/JoaoMarcosCS/JardimSaude" target="_blank">Frontend</a>
                     </GitHubButton>
                     <GitHubButton>
                         <p><Github /> </p>
-                        <a href="https://github.com/JoaoMarcosCS/JardimSaudeAPI">Backend</a>
+                        <a href="https://github.com/JoaoMarcosCS/JardimSaudeAPI" target="_blank">Backend</a>
                     </GitHubButton>
                 </ButtonContainer>
 
